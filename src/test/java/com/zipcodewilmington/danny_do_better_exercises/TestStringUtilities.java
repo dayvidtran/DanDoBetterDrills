@@ -22,14 +22,14 @@ public class TestStringUtilities {
     }
 
     @Test
-    public void concatenationStringTest(){
+    public void concatenationStringTest() {
         // : Given
         String one = "Hello";
         String two = " Java";
         String expected = "Hello Java";
 
         // : When
-        String actual = StringUtilities.concatenation(one,two);
+        String actual = StringUtilities.concatenation(one, two);
 
 
         // : Then
@@ -38,14 +38,14 @@ public class TestStringUtilities {
 
 
     @Test
-    public void concatenationStringAndIntegerTest(){
+    public void concatenationStringAndIntegerTest() {
         // : Given
         int one = 1;
         String two = " Java";
         String expected = "1 Java";
 
         // : When
-        String actual = StringUtilities.concatenation(one,two);
+        String actual = StringUtilities.concatenation(one, two);
 
 
         // : Then
@@ -53,7 +53,7 @@ public class TestStringUtilities {
     }
 
     @Test
-    public void substringBeginTest(){
+    public void substringBeginTest() {
         // : Given
         String input = "Hello";
         String expected = "Hel";
@@ -66,7 +66,7 @@ public class TestStringUtilities {
     }
 
     @Test
-    public void substringEndTest(){
+    public void substringEndTest() {
         // : Given
         String input = "Hello";
         String expected = "llo";
@@ -79,7 +79,7 @@ public class TestStringUtilities {
     }
 
     @Test
-    public void testCompareToEquals(){
+    public void testCompareToEquals() {
         // : Given
         String inputValue = "Zipcode";
         String comparableValue = "Zipcode";
@@ -93,7 +93,7 @@ public class TestStringUtilities {
 
 
     @Test
-    public void testCompareToNotEquals(){
+    public void testCompareToNotEquals() {
         // : Given
         String inputValue = "Zipcode";
         String comparableValue = "Zipcodee";
@@ -106,7 +106,7 @@ public class TestStringUtilities {
     }
 
     @Test
-    public void getTheMiddleCharOfZipcode(){
+    public void getTheMiddleCharOfZipcode() {
         // : Given
         String input = "Zipcode";
         Character expected = 'c';
@@ -120,7 +120,7 @@ public class TestStringUtilities {
 
 
     @Test
-    public void getTheMiddleCharOfZipcoder(){
+    public void getTheMiddleCharOfZipcoder() {
         // : Given
         String input = "Zipcoder";
         Character expected = 'c';
@@ -134,7 +134,7 @@ public class TestStringUtilities {
 
 
     @Test
-    public void getTheFirstWord(){
+    public void getTheFirstWord() {
         // : Given
         String input = "Zipcode Wilmington";
         String expected = "Zipcode";
@@ -148,7 +148,7 @@ public class TestStringUtilities {
 
 
     @Test
-    public void getTheSecondWord(){
+    public void getTheSecondWord() {
         // : Given
         String input = "Zipcode Wilmington";
         String expected = "Wilmington";
@@ -161,7 +161,7 @@ public class TestStringUtilities {
     }
 
     @Test
-    public void reverseThem(){
+    public void reverseThem() {
         // : Given
         String input = "Zipcode Wilmington";
         String expected = "notgnimliW edocpiZ";
