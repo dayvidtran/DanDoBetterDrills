@@ -18,7 +18,7 @@ public class StringUtilities {
      */
     public static String concatenation(String firstSegment, String secondSegment) {
         String thirdSegment = thirdSegment = firstSegment.concat(secondSegment);
-        return thirdSegment;
+        return firstSegment + " " + secondSegment;
     }
 
     /**
@@ -27,7 +27,7 @@ public class StringUtilities {
      * @return the concatenation of an integer, `firstSegment`, and a String, `secondSegment`
      */
     public static String concatenation(int firstSegment, String secondSegment) {
-        return firstSegment + secondSegment;
+        return firstSegment + " " + secondSegment;
     }
 
     /**
